@@ -1,0 +1,579 @@
+Information for the MGWE Analysis
+################################################################
+If any of this is wrong the analysis won't work, double check!!!!
+You have set pxrmt to be in the path: pxrmt
+You have set pxbp to be in the path: pxbp
+You have set raxml to be in the path: raxmlHPC
+The species in the relationship you are looking at are: alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+You are testing this many Topos: 2
+Your supermatrix is file called: ExampleConcat.fa
+Your partition file is called: ExampleGenes.model
+Your tree set file is (newick hopefully?): ExampleAllGeneTrees.tre
+Running a test?: False
+You're output folder is: Vert_MGWE_Info
+Running it in verbose?: True
+################################################################
+You're Edge Info is in bp.log
+You're Unique Trees are in Unique.tre
+You're total genes: 248
+##################Your Conflicts################
+Conflict 0: alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+Conflict 1: Gallus,Taeniopygia,alligator,caiman
+Conflict 2: Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+Conflict 3: Ornithorhynchus,Homo,Monodelphis,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+Conflict 4: podarcis,Anolis,python,Gallus,Taeniopygia,alligator,caiman
+###############Your Trees And their Conflicts##########
+Tree: 0 Conflict: 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+Tree: 1 Conflict: 1 Gallus,Taeniopygia,alligator,caiman
+Tree: 2 Conflict: 1 Gallus,Taeniopygia,alligator,caiman
+Tree: 2 Conflict: 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+Tree: 3 Conflict: 3 Ornithorhynchus,Homo,Monodelphis,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+Tree: 4 Conflict: 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+Tree: 5 Conflict: 1 Gallus,Taeniopygia,alligator,caiman
+Tree: 5 Conflict: 4 podarcis,Anolis,python,Gallus,Taeniopygia,alligator,caiman
+Tree: 6 Conflict: 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+################################################################
+#HERE ARE THE TAXA AND MISSING ONES FROM EACH GENE:
+Gene_0: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,protopterus,python,
+Gene_1: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,podarcis,python,
+Gene_2: Has 11 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,podarcis,python,
+Gene_3: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,phrynops,podarcis,protopterus,python,
+Gene_4: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,
+Gene_5: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,podarcis,python,
+Gene_6: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,podarcis,protopterus,
+Gene_7: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_8: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,
+Gene_9: Has 15 in it
+These were removed from likelihood calc due to all missing data: alligator,
+Gene_10: Has 11 in it
+These were removed from likelihood calc due to all missing data: caiman,emys_orbicularis,podarcis,protopterus,python,
+Gene_11: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,podarcis,protopterus,
+Gene_12: Has 10 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_13: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,
+Gene_14: Has 10 in it
+These were removed from likelihood calc due to all missing data: caiman,chelonoidis_nigra,emys_orbicularis,podarcis,protopterus,python,
+Gene_15: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,podarcis,python,
+Gene_16: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,
+Gene_17: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,
+Gene_18: Has 13 in it
+These were removed from likelihood calc due to all missing data: emys_orbicularis,protopterus,python,
+Gene_19: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,podarcis,protopterus,
+Gene_20: Has 12 in it
+These were removed from likelihood calc due to all missing data: caiman,chelonoidis_nigra,podarcis,protopterus,
+Gene_21: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,podarcis,protopterus,python,
+Gene_22: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,podarcis,python,
+Gene_23: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,podarcis,
+Gene_24: Has 9 in it
+These were removed from likelihood calc due to all missing data: Ornithorhynchus,alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_25: Has 11 in it
+These were removed from likelihood calc due to all missing data: chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,
+Gene_26: Has 16 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_27: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,phrynops,podarcis,protopterus,python,
+Gene_28: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_29: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,phrynops,podarcis,protopterus,python,
+Gene_30: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,phrynops,
+Gene_31: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,phrynops,
+Gene_32: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,protopterus,
+Gene_33: Has 15 in it
+These were removed from likelihood calc due to all missing data: emys_orbicularis,
+Gene_34: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,phrynops,podarcis,python,
+Gene_35: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,python,
+Gene_36: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,protopterus,python,
+Gene_37: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,
+Gene_38: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_39: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,podarcis,protopterus,python,
+Gene_40: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,phrynops,protopterus,
+Gene_41: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,python,
+Gene_42: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,python,
+Gene_43: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,python,
+Gene_44: Has 15 in it
+These were removed from likelihood calc due to all missing data: caretta,
+Gene_45: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,
+Gene_46: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,podarcis,protopterus,python,
+Gene_47: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_48: Has 12 in it
+These were removed from likelihood calc due to all missing data: caiman,phrynops,protopterus,python,
+Gene_49: Has 12 in it
+These were removed from likelihood calc due to all missing data: caiman,chelonoidis_nigra,podarcis,protopterus,
+Gene_50: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_51: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_52: Has 14 in it
+These were removed from likelihood calc due to all missing data: chelonoidis_nigra,phrynops,
+Gene_53: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,python,
+Gene_54: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,protopterus,python,
+Gene_55: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,protopterus,python,
+Gene_56: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,podarcis,
+Gene_57: Has 13 in it
+These were removed from likelihood calc due to all missing data: caiman,chelonoidis_nigra,emys_orbicularis,
+Gene_58: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,
+Gene_59: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_60: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,python,
+Gene_61: Has 11 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,podarcis,protopterus,
+Gene_62: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_63: Has 14 in it
+These were removed from likelihood calc due to all missing data: chelonoidis_nigra,podarcis,
+Gene_64: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,protopterus,
+Gene_65: Has 8 in it
+These were removed from likelihood calc due to all missing data: Ornithorhynchus,alligator,caretta,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_66: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,podarcis,protopterus,
+Gene_67: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,phrynops,protopterus,python,
+Gene_68: Has 16 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_69: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_70: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,
+Gene_71: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,protopterus,python,
+Gene_72: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,protopterus,python,
+Gene_73: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_74: Has 11 in it
+These were removed from likelihood calc due to all missing data: caiman,phrynops,podarcis,protopterus,python,
+Gene_75: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,podarcis,protopterus,python,
+Gene_76: Has 12 in it
+These were removed from likelihood calc due to all missing data: caiman,emys_orbicularis,phrynops,podarcis,
+Gene_77: Has 8 in it
+These were removed from likelihood calc due to all missing data: Anolis,alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_78: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,
+Gene_79: Has 13 in it
+These were removed from likelihood calc due to all missing data: chelonoidis_nigra,podarcis,protopterus,
+Gene_80: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,phrynops,podarcis,protopterus,python,
+Gene_81: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,python,
+Gene_82: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,podarcis,python,
+Gene_83: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,python,
+Gene_84: Has 15 in it
+These were removed from likelihood calc due to all missing data: alligator,
+Gene_85: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_86: Has 13 in it
+These were removed from likelihood calc due to all missing data: emys_orbicularis,podarcis,python,
+Gene_87: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,
+Gene_88: Has 11 in it
+These were removed from likelihood calc due to all missing data: caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_89: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,phrynops,podarcis,python,
+Gene_90: Has 12 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,podarcis,protopterus,
+Gene_91: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,podarcis,python,
+Gene_92: Has 9 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_93: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,protopterus,python,
+Gene_94: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_95: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,protopterus,python,
+Gene_96: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,phrynops,podarcis,protopterus,python,
+Gene_97: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,podarcis,protopterus,python,
+Gene_98: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,phrynops,podarcis,python,
+Gene_99: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,podarcis,protopterus,python,
+Gene_100: Has 10 in it
+These were removed from likelihood calc due to all missing data: caiman,chelonoidis_nigra,emys_orbicularis,podarcis,protopterus,python,
+Gene_101: Has 11 in it
+These were removed from likelihood calc due to all missing data: caiman,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_102: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,phrynops,protopterus,
+Gene_103: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,python,
+Gene_104: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,
+Gene_105: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,protopterus,
+Gene_106: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,podarcis,python,
+Gene_107: Has 11 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,podarcis,protopterus,python,
+Gene_108: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,protopterus,
+Gene_109: Has 16 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_110: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,
+Gene_111: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,podarcis,python,
+Gene_112: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,protopterus,
+Gene_113: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,protopterus,python,
+Gene_114: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,phrynops,podarcis,python,
+Gene_115: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,protopterus,
+Gene_116: Has 10 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_117: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,python,
+Gene_118: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,phrynops,podarcis,protopterus,
+Gene_119: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,podarcis,protopterus,python,
+Gene_120: Has 11 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,phrynops,podarcis,
+Gene_121: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,podarcis,protopterus,
+Gene_122: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_123: Has 15 in it
+These were removed from likelihood calc due to all missing data: alligator,
+Gene_124: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,protopterus,python,
+Gene_125: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,podarcis,protopterus,
+Gene_126: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,podarcis,protopterus,
+Gene_127: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_128: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,protopterus,
+Gene_129: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_130: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,podarcis,python,
+Gene_131: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,
+Gene_132: Has 13 in it
+These were removed from likelihood calc due to all missing data: caretta,chelonoidis_nigra,podarcis,
+Gene_133: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,python,
+Gene_134: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,python,
+Gene_135: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,protopterus,
+Gene_136: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,protopterus,
+Gene_137: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,python,
+Gene_138: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,python,
+Gene_139: Has 11 in it
+These were removed from likelihood calc due to all missing data: chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,python,
+Gene_140: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_141: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,podarcis,protopterus,
+Gene_142: Has 13 in it
+These were removed from likelihood calc due to all missing data: chelonoidis_nigra,emys_orbicularis,podarcis,
+Gene_143: Has 15 in it
+These were removed from likelihood calc due to all missing data: alligator,
+Gene_144: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_145: Has 15 in it
+These were removed from likelihood calc due to all missing data: alligator,
+Gene_146: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,phrynops,podarcis,protopterus,python,
+Gene_147: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_148: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_149: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,
+Gene_150: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_151: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,
+Gene_152: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,protopterus,
+Gene_153: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,phrynops,podarcis,protopterus,python,
+Gene_154: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,phrynops,
+Gene_155: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,podarcis,protopterus,python,
+Gene_156: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,phrynops,
+Gene_157: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,protopterus,python,
+Gene_158: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,protopterus,
+Gene_159: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_160: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_161: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_162: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_163: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,protopterus,
+Gene_164: Has 16 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_165: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,protopterus,python,
+Gene_166: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,podarcis,protopterus,python,
+Gene_167: Has 10 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,emys_orbicularis,phrynops,podarcis,python,
+Gene_168: Has 13 in it
+These were removed from likelihood calc due to all missing data: caiman,podarcis,protopterus,
+Gene_169: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_170: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,protopterus,python,
+Gene_171: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,python,
+Gene_172: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,python,
+Gene_173: Has 13 in it
+These were removed from likelihood calc due to all missing data: emys_orbicularis,podarcis,protopterus,
+Gene_174: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,
+Gene_175: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_176: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_177: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,podarcis,python,
+Gene_178: Has 10 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,phrynops,podarcis,protopterus,python,
+Gene_179: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,
+Gene_180: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,podarcis,protopterus,
+Gene_181: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,phrynops,protopterus,python,
+Gene_182: Has 14 in it
+These were removed from likelihood calc due to all missing data: emys_orbicularis,phrynops,
+Gene_183: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,protopterus,python,
+Gene_184: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,
+Gene_185: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,protopterus,python,
+Gene_186: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,podarcis,protopterus,python,
+Gene_187: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,podarcis,python,
+Gene_188: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,protopterus,python,
+Gene_189: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,podarcis,
+Gene_190: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,podarcis,protopterus,python,
+Gene_191: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_192: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_193: Has 10 in it
+These were removed from likelihood calc due to all missing data: caiman,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,
+Gene_194: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,podarcis,python,
+Gene_195: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,protopterus,
+Gene_196: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,python,
+Gene_197: Has 9 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_198: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,python,
+Gene_199: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_200: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,protopterus,python,
+Gene_201: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_202: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,protopterus,
+Gene_203: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,podarcis,protopterus,python,
+Gene_204: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,podarcis,protopterus,python,
+Gene_205: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,podarcis,protopterus,python,
+Gene_206: Has 15 in it
+These were removed from likelihood calc due to all missing data: alligator,
+Gene_207: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,python,
+Gene_208: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,protopterus,python,
+Gene_209: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,
+Gene_210: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_211: Has 14 in it
+These were removed from likelihood calc due to all missing data: caretta,protopterus,
+Gene_212: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,protopterus,
+Gene_213: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,podarcis,protopterus,python,
+Gene_214: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,
+Gene_215: Has 14 in it
+These were removed from likelihood calc due to all missing data: emys_orbicularis,python,
+Gene_216: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_217: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_218: Has 9 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_219: Has 12 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,protopterus,python,
+Gene_220: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_221: Has 10 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_222: Has 12 in it
+These were removed from likelihood calc due to all missing data: caiman,podarcis,protopterus,python,
+Gene_223: Has 11 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,phrynops,podarcis,python,
+Gene_224: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_225: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,phrynops,podarcis,protopterus,python,
+Gene_226: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,protopterus,python,
+Gene_227: Has 16 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_228: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,protopterus,
+Gene_229: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,
+Gene_230: Has 15 in it
+These were removed from likelihood calc due to all missing data: chelonoidis_nigra,
+Gene_231: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_232: Has 14 in it
+These were removed from likelihood calc due to all missing data: alligator,protopterus,
+Gene_233: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,phrynops,
+Gene_234: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_235: Has 13 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,python,
+Gene_236: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_237: Has 11 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,podarcis,protopterus,
+Gene_238: Has 10 in it
+These were removed from likelihood calc due to all missing data: caiman,caretta,chelonoidis_nigra,phrynops,podarcis,python,
+Gene_239: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,emys_orbicularis,podarcis,protopterus,python,
+Gene_240: Has 10 in it
+These were removed from likelihood calc due to all missing data: caiman,chelonoidis_nigra,phrynops,podarcis,protopterus,python,
+Gene_241: Has 15 in it
+These were removed from likelihood calc due to all missing data: podarcis,
+Gene_242: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,emys_orbicularis,podarcis,protopterus,python,
+Gene_243: Has 12 in it
+These were removed from likelihood calc due to all missing data: caiman,podarcis,protopterus,python,
+Gene_244: Has 14 in it
+These were removed from likelihood calc due to all missing data: caiman,podarcis,
+Gene_245: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,chelonoidis_nigra,emys_orbicularis,phrynops,podarcis,protopterus,python,
+Gene_246: Has 11 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,chelonoidis_nigra,podarcis,python,
+Gene_247: Has 9 in it
+These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,phrynops,podarcis,protopterus,python,
+#######################Gene Counts###############################
+Conflict 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 91
+Conflict 1 Gallus,Taeniopygia,alligator,caiman: 144
+Conflict 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 
+Conflict 3 Ornithorhynchus,Homo,Monodelphis,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 13
+Conflict 4 podarcis,Anolis,python,Gallus,Taeniopygia,alligator,caiman: 
+#######################Site Counts###############################
+Conflict 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 66315
+Conflict 1 Gallus,Taeniopygia,alligator,caiman: 110727
+Conflict 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 
+Conflict 3 Ornithorhynchus,Homo,Monodelphis,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 9984
+Conflict 4 podarcis,Anolis,python,Gallus,Taeniopygia,alligator,caiman: 
+#######################Paramater Info############################
+Parameters of your regular old supermatrix: 2261
+Parameters used for the Edge analysis: 7186
+#######################Your Likelihoods##########################
+Tree 0: -1047406.056279
+Tree 1: -1047410.075015
+Indv BrLen 0: -1031489.817195
+Indv BrLen 1: -1031453.355229
+Edge 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: -1031423.67415
+Edge 1 Gallus,Taeniopygia,alligator,caiman: -1031294.019851
+Edge 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: -1041062.404812
+Edge 3 Ornithorhynchus,Homo,Monodelphis,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: -1033745.134682
+Edge 4 podarcis,Anolis,python,Gallus,Taeniopygia,alligator,caiman: -1032083.686971
+The Best Likelihood is: -1031294.019851
+#####################Your AIC Scores##########################
+Tree 0: 2099334.112558
+Tree 1: 2099342.15003
+Indv BrLen 0: 2077351.63439
+Indv BrLen 1: 2077278.710458
+Edge 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 2077219.3483
+Edge 1 Gallus,Taeniopygia,alligator,caiman: 2076960.039702
+Edge 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 2096496.809624
+Edge 3 Ornithorhynchus,Homo,Monodelphis,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 2081862.269364
+Edge 4 podarcis,Anolis,python,Gallus,Taeniopygia,alligator,caiman: 2078539.373942
+The Best AIC is: 2076960.039702
+###################Your Delta AIC Scores#######################
+Tree 0: 22374.0728559988
+Tree 1: 22382.1103279991
+Indv BrLen 0: 391.594687999692
+Indv BrLen 1: 318.670756000793
+Edge 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 259.308598000556
+Edge 1 Gallus,Taeniopygia,alligator,caiman: 0
+Edge 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 19536.7699219994
+Edge 3 Ornithorhynchus,Homo,Monodelphis,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 4902.22966199834
+Edge 4 podarcis,Anolis,python,Gallus,Taeniopygia,alligator,caiman: 1579.33424000023

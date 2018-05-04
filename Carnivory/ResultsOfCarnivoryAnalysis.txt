@@ -1,0 +1,3048 @@
+Information for the MGWE Analysis
+################################################################
+If any of this is wrong the analysis won't work, double check!!!!
+You have set pxrmt to be in the path: pxrmt
+You have set pxbp to be in the path: pxbp
+You have set raxml to be in the path: raxmlHPC
+The species in the relationship you are looking at are: MJM1652,Dino,NepSFB,Neam,DrobinSFB
+You are testing this many Topos: 2
+Your supermatrix is file called: CarnivorySupermatrix.fa
+Your partition file is called: CarnivorySupermatrix.model
+Your tree set file is (newick hopefully?): CarnivoryTrees.tre
+Running a test?: False
+You're output folder is: CarnivoryInfo
+Running it in verbose?: True
+################################################################
+You're Edge Info is in bp.log
+You're Unique Trees are in Unique.tre
+You're total genes: 1237
+##################Your Conflicts################
+Conflict 0: MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Conflict 1: MJM2940,DrolusSFB,NepSFB,Neam
+Conflict 2: MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Conflict 3: WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Conflict 4: DrolusSFB,NepSFB,Neam
+Conflict 5: RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Conflict 6: RuprSFB,MJM3360,NepSFB,Neam
+Conflict 7: DrolusSFB,DrobinSFB,MJM1652,Dino
+Conflict 8: MJM2940,NepSFB,Neam
+Conflict 9: WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Conflict 10: RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Conflict 11: WPYJ,Retr,RuprSFB,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino
+Conflict 12: WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam
+Conflict 13: WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Conflict 14: WPYJ,Retr,NepSFB,Neam
+Conflict 15: WPYJ,Retr,DrobinSFB,MJM1652,Dino
+Conflict 16: WPYJ,NepSFB,Neam
+Conflict 17: WPYJ,MJM2940,DrolusSFB,NepSFB,Neam
+Conflict 18: MJM2940,DrobinSFB,MJM1652,Dino
+Conflict 19: MJM3360,DrobinSFB,MJM1652,Dino
+Conflict 20: WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta
+Conflict 21: DrobinSFB,MJM1652,Dino,Spol,Beta
+Conflict 22: RuprSFB,DrobinSFB,MJM1652,Dino
+Conflict 23: Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Conflict 24: RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Conflict 25: RuprSFB,MJM3360,DrobinSFB
+Conflict 26: WPYJ,Retr,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Conflict 27: WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Conflict 28: MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta
+Conflict 29: WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino,Spol,Beta
+Conflict 30: DrolusSFB,DrobinSFB
+Conflict 31: MJM2940,DrolusSFB,DrobinSFB
+Conflict 32: MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Conflict 33: RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Conflict 34: MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Conflict 35: RuprSFB,MJM3360,MJM2940,NepSFB,Neam
+Conflict 36: WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Conflict 37: WPYJ,Retr,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino
+Conflict 38: WPYJ,Retr,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Conflict 39: MJM3360,DrobinSFB
+Conflict 40: RuprSFB,MJM1652,Dino
+Conflict 41: RuprSFB,MJM1652,Dino,NepSFB,Neam
+Conflict 42: RuprSFB,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Conflict 43: RuprSFB,NepSFB,Neam
+Conflict 44: WPYJ,DrobinSFB,MJM1652,Dino
+###############Your Trees And their Conflicts##########
+Tree: 0 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 1 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 2 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 3 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 4 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 4 Conflict: 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 5 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 6 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 7 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 8 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 9 Conflict: 4 DrolusSFB,NepSFB,Neam
+Tree: 9 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 10 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 11 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 12 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 13 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 14 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 14 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 15 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 16 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 17 Conflict: 6 RuprSFB,MJM3360,NepSFB,Neam
+Tree: 18 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 19 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 20 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 21 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 22 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 23 Conflict: 7 DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 23 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 24 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 25 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 26 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 27 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 28 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 28 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 29 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 30 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 31 Conflict: 6 RuprSFB,MJM3360,NepSFB,Neam
+Tree: 31 Conflict: 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 32 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 32 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 33 Conflict: 7 DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 34 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 35 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 35 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 35 Conflict: 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 35 Conflict: 11 WPYJ,Retr,RuprSFB,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 36 Conflict: 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam
+Tree: 36 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 37 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 38 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 38 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 39 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 39 Conflict: 7 DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 40 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 41 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 41 Conflict: 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 42 Conflict: 14 WPYJ,Retr,NepSFB,Neam
+Tree: 42 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 43 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 44 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 45 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 45 Conflict: 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino
+Tree: 45 Conflict: 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 46 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 47 Conflict: 6 RuprSFB,MJM3360,NepSFB,Neam
+Tree: 47 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 48 Conflict: 6 RuprSFB,MJM3360,NepSFB,Neam
+Tree: 48 Conflict: 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 48 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 49 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 50 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 50 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 51 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 51 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 52 Conflict: 7 DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 52 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 53 Conflict: 16 WPYJ,NepSFB,Neam
+Tree: 53 Conflict: 17 WPYJ,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 54 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 55 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 56 Conflict: 18 MJM2940,DrobinSFB,MJM1652,Dino
+Tree: 56 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 57 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 58 Conflict: 19 MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 59 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 60 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 61 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 62 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 63 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 64 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 65 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 66 Conflict: 19 MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 66 Conflict: 4 DrolusSFB,NepSFB,Neam
+Tree: 66 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 67 Conflict: 20 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta
+Tree: 67 Conflict: 14 WPYJ,Retr,NepSFB,Neam
+Tree: 67 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 67 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 67 Conflict: 21 DrobinSFB,MJM1652,Dino,Spol,Beta
+Tree: 68 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 68 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 69 Conflict: 22 RuprSFB,DrobinSFB,MJM1652,Dino
+Tree: 69 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 70 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 71 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 71 Conflict: 6 RuprSFB,MJM3360,NepSFB,Neam
+Tree: 72 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 73 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 74 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 75 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 76 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 77 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 78 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 78 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 79 Conflict: 7 DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 79 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 80 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 81 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 82 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 83 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 84 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 85 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 86 Conflict: 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino
+Tree: 87 Conflict: 6 RuprSFB,MJM3360,NepSFB,Neam
+Tree: 87 Conflict: 7 DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 87 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 88 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 89 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 89 Conflict: 23 Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 90 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 91 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 92 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 93 Conflict: 6 RuprSFB,MJM3360,NepSFB,Neam
+Tree: 94 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 94 Conflict: 24 RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 95 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 96 Conflict: 25 RuprSFB,MJM3360,DrobinSFB
+Tree: 96 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 96 Conflict: 24 RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 97 Conflict: 24 RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 98 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 99 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 100 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 101 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 102 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 103 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 104 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 105 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 105 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 105 Conflict: 26 WPYJ,Retr,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Tree: 105 Conflict: 27 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Tree: 106 Conflict: 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 106 Conflict: 28 MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta
+Tree: 106 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 106 Conflict: 29 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino,Spol,Beta
+Tree: 107 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 108 Conflict: 14 WPYJ,Retr,NepSFB,Neam
+Tree: 108 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 109 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 109 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 110 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 111 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 112 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 112 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 113 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 114 Conflict: 18 MJM2940,DrobinSFB,MJM1652,Dino
+Tree: 114 Conflict: 4 DrolusSFB,NepSFB,Neam
+Tree: 115 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 116 Conflict: 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 117 Conflict: 7 DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 117 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 118 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 119 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 119 Conflict: 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino
+Tree: 120 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 120 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 121 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 122 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 123 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 123 Conflict: 19 MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 123 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 124 Conflict: 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino
+Tree: 124 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 125 Conflict: 4 DrolusSFB,NepSFB,Neam
+Tree: 125 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 126 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 127 Conflict: 30 DrolusSFB,DrobinSFB
+Tree: 127 Conflict: 31 MJM2940,DrolusSFB,DrobinSFB
+Tree: 127 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 128 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 129 Conflict: 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino
+Tree: 129 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 130 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 130 Conflict: 32 MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Tree: 130 Conflict: 26 WPYJ,Retr,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Tree: 130 Conflict: 27 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Tree: 131 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 132 Conflict: 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 132 Conflict: 33 RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Tree: 133 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 133 Conflict: 34 MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 134 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 135 Conflict: 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino
+Tree: 135 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 136 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 136 Conflict: 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 136 Conflict: 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino
+Tree: 137 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 138 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 139 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 139 Conflict: 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 139 Conflict: 19 MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 139 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 140 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 140 Conflict: 35 RuprSFB,MJM3360,MJM2940,NepSFB,Neam
+Tree: 141 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 142 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 143 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 143 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 143 Conflict: 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 144 Conflict: 36 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 145 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 145 Conflict: 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 145 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 146 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 147 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 148 Conflict: 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam
+Tree: 148 Conflict: 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 149 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 150 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 151 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 152 Conflict: 19 MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 153 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 153 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 154 Conflict: 19 MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 154 Conflict: 37 WPYJ,Retr,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 154 Conflict: 38 WPYJ,Retr,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 155 Conflict: 39 MJM3360,DrobinSFB
+Tree: 155 Conflict: 40 RuprSFB,MJM1652,Dino
+Tree: 155 Conflict: 41 RuprSFB,MJM1652,Dino,NepSFB,Neam
+Tree: 155 Conflict: 42 RuprSFB,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam
+Tree: 156 Conflict: 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino
+Tree: 156 Conflict: 43 RuprSFB,NepSFB,Neam
+Tree: 157 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 157 Conflict: 14 WPYJ,Retr,NepSFB,Neam
+Tree: 158 Conflict: 44 WPYJ,DrobinSFB,MJM1652,Dino
+Tree: 159 Conflict: 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 160 Conflict: 8 MJM2940,NepSFB,Neam
+Tree: 161 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 162 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 162 Conflict: 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 163 Conflict: 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB
+Tree: 164 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 164 Conflict: 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam
+Tree: 165 Conflict: 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino
+Tree: 165 Conflict: 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam
+Tree: 166 Conflict: 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 166 Conflict: 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino
+Tree: 167 Conflict: 4 DrolusSFB,NepSFB,Neam
+Tree: 167 Conflict: 1 MJM2940,DrolusSFB,NepSFB,Neam
+################################################################
+#HERE ARE THE TAXA AND MISSING ONES FROM EACH GENE:
+Gene_0: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_2: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_3: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_4: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_5: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_6: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_7: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_8: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_9: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_10: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_11: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_12: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_13: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_14: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_15: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_16: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_17: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_18: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_19: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_20: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_21: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_22: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_23: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_24: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_25: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_26: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_27: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_28: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_29: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_30: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_31: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_32: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_33: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_34: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_35: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_36: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_37: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_38: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_39: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_40: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_41: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_42: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_43: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_44: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_45: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_46: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_47: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_48: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_49: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_50: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_51: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_52: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_53: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_54: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_55: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_56: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_57: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_58: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_59: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_60: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_61: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_62: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_63: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_64: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_65: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_66: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_67: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_68: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_69: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_70: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_71: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_72: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_73: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_74: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_75: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_76: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_77: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_78: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_79: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_80: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_81: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_82: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_83: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_84: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_85: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_86: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_87: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_88: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_89: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_90: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_91: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_92: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_93: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_94: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_95: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_96: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_97: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_98: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_99: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_100: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_101: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_102: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_103: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_104: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_105: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_106: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_107: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_108: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_109: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_110: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_111: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_112: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_113: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_114: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_115: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_116: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_117: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_118: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_119: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_120: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_121: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_122: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_123: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_124: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_125: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_126: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_127: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_128: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_129: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_130: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_131: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_132: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_133: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_134: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_135: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_136: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_137: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_138: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_139: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_140: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_141: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_142: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_143: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_144: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_145: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_146: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_147: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_148: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_149: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_150: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_151: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_152: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_153: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_154: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_155: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_156: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_157: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_158: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_159: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_160: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_161: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_162: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_163: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_164: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_165: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_166: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_167: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_168: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_169: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_170: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_171: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_172: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_173: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_174: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_175: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_176: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_177: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_178: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_179: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_180: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_181: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_182: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_183: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_184: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_185: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_186: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_187: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_188: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_189: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_190: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_191: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_192: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_193: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_194: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_195: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_196: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_197: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_198: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_199: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_200: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_201: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_202: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_203: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_204: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_205: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_206: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_207: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_208: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_209: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_210: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_211: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_212: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_213: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_214: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_215: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_216: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_217: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_218: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_219: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_220: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_221: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_222: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_223: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_224: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_225: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_226: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_227: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_228: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_229: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_230: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_231: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_232: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_233: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_234: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_235: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_236: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_237: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_238: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_239: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_240: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_241: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_242: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_243: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_244: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_245: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_246: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_247: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_248: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_249: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_250: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_251: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_252: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_253: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_254: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_255: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_256: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_257: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_258: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_259: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_260: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_261: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_262: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_263: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_264: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_265: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_266: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_267: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_268: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_269: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_270: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_271: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_272: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_273: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_274: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_275: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_276: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_277: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_278: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_279: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_280: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_281: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_282: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_283: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_284: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_285: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_286: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_287: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_288: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_289: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_290: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_291: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_292: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_293: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_294: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_295: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_296: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_297: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_298: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_299: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_300: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_301: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_302: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_303: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_304: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_305: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_306: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_307: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_308: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_309: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_310: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_311: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_312: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_313: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_314: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_315: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_316: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_317: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_318: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_319: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_320: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_321: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_322: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_323: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_324: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_325: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_326: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_327: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_328: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_329: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_330: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_331: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_332: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_333: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_334: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_335: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_336: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_337: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_338: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_339: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_340: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_341: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_342: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_343: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_344: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_345: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_346: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_347: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_348: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_349: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_350: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_351: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_352: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_353: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_354: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_355: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_356: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_357: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_358: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_359: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_360: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_361: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_362: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_363: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_364: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_365: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_366: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_367: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_368: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_369: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_370: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_371: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_372: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_373: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_374: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_375: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_376: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_377: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_378: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_379: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_380: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_381: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_382: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_383: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_384: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_385: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_386: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_387: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_388: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_389: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_390: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_391: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_392: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_393: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_394: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_395: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_396: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_397: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_398: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_399: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_400: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_401: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_402: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_403: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_404: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_405: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_406: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_407: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_408: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_409: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_410: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_411: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_412: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_413: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_414: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_415: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_416: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_417: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_418: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_419: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_420: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_421: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_422: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_423: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_424: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_425: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_426: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_427: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_428: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_429: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_430: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_431: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_432: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_433: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_434: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_435: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_436: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_437: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_438: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_439: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_440: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_441: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_442: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_443: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_444: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_445: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_446: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_447: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_448: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_449: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_450: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_451: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_452: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_453: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_454: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_455: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_456: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_457: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_458: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_459: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_460: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_461: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_462: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_463: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_464: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_465: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_466: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_467: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_468: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_469: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_470: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_471: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_472: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_473: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_474: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_475: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_476: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_477: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_478: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_479: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_480: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_481: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_482: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_483: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_484: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_485: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_486: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_487: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_488: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_489: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_490: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_491: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_492: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_493: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_494: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_495: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_496: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_497: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_498: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_499: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_500: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_501: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_502: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_503: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_504: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_505: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_506: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_507: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_508: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_509: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_510: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_511: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_512: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_513: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_514: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_515: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_516: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_517: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_518: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_519: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_520: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_521: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_522: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_523: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_524: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_525: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_526: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_527: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_528: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_529: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_530: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_531: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_532: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_533: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_534: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_535: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_536: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_537: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_538: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_539: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_540: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_541: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_542: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_543: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_544: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_545: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_546: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_547: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_548: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_549: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_550: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_551: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_552: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_553: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_554: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_555: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_556: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_557: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_558: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_559: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_560: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_561: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_562: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_563: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_564: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_565: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_566: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_567: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_568: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_569: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_570: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_571: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_572: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_573: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_574: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_575: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_576: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_577: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_578: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_579: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_580: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_581: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_582: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_583: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_584: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_585: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_586: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_587: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_588: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_589: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_590: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_591: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_592: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_593: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_594: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_595: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_596: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_597: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_598: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_599: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_600: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_601: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_602: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_603: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_604: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_605: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_606: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_607: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_608: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_609: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_610: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_611: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_612: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_613: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_614: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_615: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_616: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_617: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_618: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_619: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_620: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_621: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_622: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_623: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_624: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_625: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_626: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_627: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_628: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_629: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_630: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_631: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_632: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_633: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_634: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_635: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_636: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_637: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_638: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_639: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_640: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_641: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_642: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_643: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_644: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_645: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_646: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_647: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_648: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_649: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_650: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_651: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_652: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_653: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_654: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_655: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_656: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_657: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_658: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_659: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_660: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_661: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_662: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_663: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_664: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_665: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_666: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_667: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_668: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_669: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_670: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_671: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_672: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_673: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_674: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_675: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_676: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_677: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_678: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_679: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_680: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_681: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_682: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_683: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_684: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_685: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_686: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_687: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_688: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_689: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_690: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_691: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_692: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_693: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_694: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_695: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_696: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_697: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_698: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_699: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_700: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_701: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_702: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_703: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_704: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_705: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_706: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_707: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_708: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_709: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_710: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_711: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_712: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_713: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_714: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_715: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_716: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_717: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_718: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_719: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_720: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_721: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_722: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_723: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_724: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_725: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_726: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_727: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_728: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_729: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_730: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_731: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_732: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_733: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_734: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_735: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_736: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_737: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_738: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_739: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_740: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_741: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_742: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_743: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_744: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_745: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_746: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_747: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_748: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_749: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_750: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_751: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_752: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_753: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_754: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_755: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_756: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_757: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_758: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_759: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_760: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_761: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_762: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_763: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_764: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_765: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_766: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_767: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_768: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_769: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_770: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_771: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_772: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_773: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_774: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_775: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_776: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_777: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_778: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_779: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_780: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_781: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_782: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_783: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_784: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_785: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_786: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_787: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_788: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_789: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_790: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_791: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_792: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_793: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_794: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_795: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_796: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_797: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_798: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_799: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_800: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_801: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_802: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_803: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_804: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_805: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_806: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_807: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_808: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_809: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_810: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_811: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_812: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_813: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_814: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_815: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_816: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_817: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_818: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_819: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_820: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_821: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_822: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_823: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_824: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_825: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_826: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_827: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_828: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_829: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_830: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_831: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_832: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_833: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_834: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_835: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_836: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_837: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_838: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_839: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_840: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_841: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_842: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_843: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_844: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_845: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_846: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_847: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_848: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_849: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_850: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_851: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_852: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_853: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_854: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_855: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_856: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_857: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_858: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_859: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_860: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_861: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_862: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_863: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_864: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_865: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_866: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_867: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_868: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_869: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_870: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_871: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_872: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_873: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_874: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_875: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_876: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_877: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_878: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_879: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_880: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_881: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_882: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_883: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_884: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_885: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_886: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_887: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_888: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_889: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_890: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_891: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_892: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_893: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_894: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_895: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_896: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_897: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_898: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_899: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_900: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_901: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_902: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_903: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_904: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_905: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_906: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_907: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_908: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_909: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_910: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_911: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_912: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_913: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_914: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_915: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_916: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_917: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_918: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_919: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_920: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_921: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_922: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_923: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_924: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_925: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_926: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_927: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_928: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_929: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_930: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_931: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_932: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_933: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_934: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_935: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_936: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_937: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_938: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_939: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_940: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_941: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_942: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_943: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_944: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_945: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_946: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_947: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_948: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_949: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_950: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_951: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_952: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_953: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_954: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_955: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_956: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_957: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_958: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_959: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_960: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_961: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_962: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_963: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_964: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_965: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_966: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_967: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_968: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_969: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_970: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_971: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_972: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_973: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_974: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_975: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_976: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_977: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_978: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_979: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_980: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_981: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_982: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_983: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_984: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_985: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_986: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_987: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_988: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_989: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_990: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_991: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_992: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_993: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_994: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_995: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_996: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_997: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_998: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_999: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1000: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1001: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1002: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1003: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1004: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1005: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1006: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1007: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1008: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1009: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1010: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1011: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1012: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1013: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1014: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1015: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1016: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1017: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1018: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1019: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1020: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1021: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1022: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1023: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1024: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1025: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1026: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1027: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1028: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1029: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1030: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1031: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1032: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1033: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1034: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1035: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1036: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1037: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1038: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1039: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1040: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1041: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1042: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1043: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1044: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1045: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1046: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1047: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1048: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1049: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1050: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1051: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1052: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1053: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1054: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1055: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1056: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1057: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1058: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1059: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1060: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1061: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1062: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1063: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1064: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1065: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1066: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1067: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1068: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1069: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1070: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1071: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1072: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1073: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1074: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1075: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1076: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1077: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1078: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1079: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1080: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1081: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1082: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1083: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1084: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1085: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1086: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1087: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1088: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1089: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1090: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1091: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1092: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1093: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1094: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1095: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1096: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1097: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1098: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1099: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1100: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1101: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1102: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1103: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1104: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1105: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1106: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1107: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1108: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1109: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1110: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1111: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1112: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1113: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1114: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1115: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1116: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1117: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1118: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1119: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1120: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1121: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1122: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1123: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1124: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1125: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1126: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1127: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1128: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1129: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1130: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1131: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1132: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1133: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1134: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1135: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1136: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1137: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1138: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1139: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1140: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1141: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1142: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1143: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1144: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1145: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1146: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1147: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1148: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1149: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1150: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1151: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1152: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1153: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1154: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1155: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1156: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1157: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1158: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1159: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1160: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1161: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1162: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1163: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1164: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1165: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1166: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1167: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1168: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1169: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1170: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1171: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1172: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1173: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1174: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1175: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1176: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1177: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1178: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1179: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1180: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1181: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1182: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1183: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1184: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1185: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1186: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1187: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1188: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1189: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1190: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1191: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1192: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1193: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1194: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1195: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1196: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1197: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1198: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1199: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1200: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1201: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1202: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1203: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1204: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1205: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1206: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1207: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1208: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1209: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1210: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1211: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1212: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1213: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1214: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1215: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1216: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1217: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1218: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1219: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1220: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1221: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1222: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1223: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1224: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1225: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1226: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1227: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1228: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1229: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1230: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1231: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1232: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1233: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1234: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1235: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+Gene_1236: Has 13 in it
+These were removed from likelihood calc due to all missing data: 
+#######################Gene Counts###############################
+Conflict 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB: 499
+Conflict 1 MJM2940,DrolusSFB,NepSFB,Neam: 466
+Conflict 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 209
+Conflict 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 5
+Conflict 4 DrolusSFB,NepSFB,Neam: 1
+Conflict 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 16
+Conflict 6 RuprSFB,MJM3360,NepSFB,Neam: 3
+Conflict 7 DrolusSFB,DrobinSFB,MJM1652,Dino: 2
+Conflict 8 MJM2940,NepSFB,Neam: 4
+Conflict 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam: 10
+Conflict 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 3
+Conflict 11 WPYJ,Retr,RuprSFB,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam: 5
+Conflict 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 8
+Conflict 14 WPYJ,Retr,NepSFB,Neam: 
+Conflict 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino: 1
+Conflict 16 WPYJ,NepSFB,Neam: 
+Conflict 17 WPYJ,MJM2940,DrolusSFB,NepSFB,Neam: 
+Conflict 18 MJM2940,DrobinSFB,MJM1652,Dino: 
+Conflict 19 MJM3360,DrobinSFB,MJM1652,Dino: 3
+Conflict 20 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: 
+Conflict 21 DrobinSFB,MJM1652,Dino,Spol,Beta: 
+Conflict 22 RuprSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 23 Retr,MJM2940,DrolusSFB,NepSFB,Neam: 
+Conflict 24 RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 25 RuprSFB,MJM3360,DrobinSFB: 
+Conflict 26 WPYJ,Retr,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 27 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 28 MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: 
+Conflict 29 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino,Spol,Beta: 
+Conflict 30 DrolusSFB,DrobinSFB: 
+Conflict 31 MJM2940,DrolusSFB,DrobinSFB: 
+Conflict 32 MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 33 RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 34 MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 
+Conflict 35 RuprSFB,MJM3360,MJM2940,NepSFB,Neam: 
+Conflict 36 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 1
+Conflict 37 WPYJ,Retr,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 38 WPYJ,Retr,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 39 MJM3360,DrobinSFB: 
+Conflict 40 RuprSFB,MJM1652,Dino: 
+Conflict 41 RuprSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 42 RuprSFB,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 43 RuprSFB,NepSFB,Neam: 
+Conflict 44 WPYJ,DrobinSFB,MJM1652,Dino: 1
+#######################Site Counts###############################
+Conflict 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB: 895722
+Conflict 1 MJM2940,DrolusSFB,NepSFB,Neam: 814779
+Conflict 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 335559
+Conflict 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 4229
+Conflict 4 DrolusSFB,NepSFB,Neam: 579
+Conflict 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 19447
+Conflict 6 RuprSFB,MJM3360,NepSFB,Neam: 3792
+Conflict 7 DrolusSFB,DrobinSFB,MJM1652,Dino: 4819
+Conflict 8 MJM2940,NepSFB,Neam: 1891
+Conflict 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam: 14069
+Conflict 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 2498
+Conflict 11 WPYJ,Retr,RuprSFB,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam: 6595
+Conflict 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 6942
+Conflict 14 WPYJ,Retr,NepSFB,Neam: 
+Conflict 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino: 996
+Conflict 16 WPYJ,NepSFB,Neam: 
+Conflict 17 WPYJ,MJM2940,DrolusSFB,NepSFB,Neam: 
+Conflict 18 MJM2940,DrobinSFB,MJM1652,Dino: 
+Conflict 19 MJM3360,DrobinSFB,MJM1652,Dino: 2791
+Conflict 20 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: 
+Conflict 21 DrobinSFB,MJM1652,Dino,Spol,Beta: 
+Conflict 22 RuprSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 23 Retr,MJM2940,DrolusSFB,NepSFB,Neam: 
+Conflict 24 RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 25 RuprSFB,MJM3360,DrobinSFB: 
+Conflict 26 WPYJ,Retr,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 27 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 28 MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: 
+Conflict 29 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino,Spol,Beta: 
+Conflict 30 DrolusSFB,DrobinSFB: 
+Conflict 31 MJM2940,DrolusSFB,DrobinSFB: 
+Conflict 32 MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 33 RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 34 MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 
+Conflict 35 RuprSFB,MJM3360,MJM2940,NepSFB,Neam: 
+Conflict 36 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 1242
+Conflict 37 WPYJ,Retr,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 38 WPYJ,Retr,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 
+Conflict 39 MJM3360,DrobinSFB: 
+Conflict 40 RuprSFB,MJM1652,Dino: 
+Conflict 41 RuprSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 42 RuprSFB,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
+Conflict 43 RuprSFB,NepSFB,Neam: 
+Conflict 44 WPYJ,DrobinSFB,MJM1652,Dino: 1633
+#######################Paramater Info############################
+Parameters of your regular old supermatrix: 11156
+Parameters used for the Edge analysis: 39584
+#######################Your Likelihoods##########################
+Tree 0: -13305055.201542
+Tree 1: -13305130.140491
+Indv BrLen 0: -13261947.293908
+Indv BrLen 1: -13262019.550222
+Edge 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB: -13258387.618044
+Edge 1 MJM2940,DrolusSFB,NepSFB,Neam: -13258317.995834
+Edge 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: -13260106.833354
+Edge 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: -13280949.571461
+Edge 4 DrolusSFB,NepSFB,Neam: -13289187.955151
+Edge 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: -13280264.628947
+Edge 6 RuprSFB,MJM3360,NepSFB,Neam: -13284032.787369
+Edge 7 DrolusSFB,DrobinSFB,MJM1652,Dino: -13290285.49429
+Edge 8 MJM2940,NepSFB,Neam: -13288763.088236
+Edge 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam: -13280579.070031
+Edge 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: -13280894.69113
+Edge 11 WPYJ,Retr,RuprSFB,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: -13331501.968871
+Edge 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam: -13284163.563437
+Edge 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: -13280382.860311
+Edge 14 WPYJ,Retr,NepSFB,Neam: -13285222.858673
+Edge 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino: -13280000.301551
+Edge 16 WPYJ,NepSFB,Neam: -13374830.365341
+Edge 17 WPYJ,MJM2940,DrolusSFB,NepSFB,Neam: -13374830.365341
+Edge 18 MJM2940,DrobinSFB,MJM1652,Dino: -13293248.391259
+Edge 19 MJM3360,DrobinSFB,MJM1652,Dino: -13317307.429319
+Edge 20 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: -13305331.060243
+Edge 21 DrobinSFB,MJM1652,Dino,Spol,Beta: -13305331.060243
+Edge 22 RuprSFB,DrobinSFB,MJM1652,Dino: -13325113.137237
+Edge 23 Retr,MJM2940,DrolusSFB,NepSFB,Neam: -13371726.943086
+Edge 24 RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: -13286394.230661
+Edge 25 RuprSFB,MJM3360,DrobinSFB: -13382054.555978
+Edge 26 WPYJ,Retr,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: -13404847.765604
+Edge 27 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: -13404847.765604
+Edge 28 MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: -13290840.538883
+Edge 29 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino,Spol,Beta: -13290840.538883
+Edge 30 DrolusSFB,DrobinSFB: -13416551.909283
+Edge 31 MJM2940,DrolusSFB,DrobinSFB: -13416551.909283
+Edge 32 MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: -13407892.148771
+Edge 33 RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: -13392662.10807
+Edge 34 MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: -13313654.021177
+Edge 35 RuprSFB,MJM3360,MJM2940,NepSFB,Neam: -13334678.087669
+Edge 36 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: -13287011.715832
+Edge 37 WPYJ,Retr,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: -13371679.160371
+Edge 38 WPYJ,Retr,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: -13371679.160371
+Edge 39 MJM3360,DrobinSFB: -13457311.493401
+Edge 40 RuprSFB,MJM1652,Dino: -13457311.493401
+Edge 41 RuprSFB,MJM1652,Dino,NepSFB,Neam: -13457311.493401
+Edge 42 RuprSFB,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: -13457311.493401
+Edge 43 RuprSFB,NepSFB,Neam: -13368806.670875
+Edge 44 WPYJ,DrobinSFB,MJM1652,Dino: -13375820.650623
+The Best Likelihood is: -13258317.995834
+#####################Your AIC Scores##########################
+Tree 0: 26632422.403084
+Tree 1: 26632572.280982
+Indv BrLen 0: 26603062.5878161
+Indv BrLen 1: 26603207.100444
+Edge 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB: 26595943.236088
+Edge 1 MJM2940,DrolusSFB,NepSFB,Neam: 26595803.991668
+Edge 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 26599381.666708
+Edge 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 26641067.142922
+Edge 4 DrolusSFB,NepSFB,Neam: 26657543.910302
+Edge 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 26639697.257894
+Edge 6 RuprSFB,MJM3360,NepSFB,Neam: 26647233.574738
+Edge 7 DrolusSFB,DrobinSFB,MJM1652,Dino: 26659738.98858
+Edge 8 MJM2940,NepSFB,Neam: 26656694.176472
+Edge 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam: 26640326.140062
+Edge 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 26640957.3822599
+Edge 11 WPYJ,Retr,RuprSFB,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: 26742171.937742
+Edge 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam: 26647495.126874
+Edge 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 26639933.720622
+Edge 14 WPYJ,Retr,NepSFB,Neam: 26649613.717346
+Edge 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino: 26639168.603102
+Edge 16 WPYJ,NepSFB,Neam: 26828828.730682
+Edge 17 WPYJ,MJM2940,DrolusSFB,NepSFB,Neam: 26828828.730682
+Edge 18 MJM2940,DrobinSFB,MJM1652,Dino: 26665664.782518
+Edge 19 MJM3360,DrobinSFB,MJM1652,Dino: 26713782.858638
+Edge 20 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: 26689830.120486
+Edge 21 DrobinSFB,MJM1652,Dino,Spol,Beta: 26689830.120486
+Edge 22 RuprSFB,DrobinSFB,MJM1652,Dino: 26729394.274474
+Edge 23 Retr,MJM2940,DrolusSFB,NepSFB,Neam: 26822621.886172
+Edge 24 RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 26651956.461322
+Edge 25 RuprSFB,MJM3360,DrobinSFB: 26843277.111956
+Edge 26 WPYJ,Retr,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 26888863.531208
+Edge 27 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 26888863.531208
+Edge 28 MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: 26660849.077766
+Edge 29 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino,Spol,Beta: 26660849.077766
+Edge 30 DrolusSFB,DrobinSFB: 26912271.818566
+Edge 31 MJM2940,DrolusSFB,DrobinSFB: 26912271.818566
+Edge 32 MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 26894952.297542
+Edge 33 RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 26864492.21614
+Edge 34 MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 26706476.042354
+Edge 35 RuprSFB,MJM3360,MJM2940,NepSFB,Neam: 26748524.175338
+Edge 36 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 26653191.431664
+Edge 37 WPYJ,Retr,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: 26822526.320742
+Edge 38 WPYJ,Retr,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 26822526.320742
+Edge 39 MJM3360,DrobinSFB: 26993790.986802
+Edge 40 RuprSFB,MJM1652,Dino: 26993790.986802
+Edge 41 RuprSFB,MJM1652,Dino,NepSFB,Neam: 26993790.986802
+Edge 42 RuprSFB,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 26993790.986802
+Edge 43 RuprSFB,NepSFB,Neam: 26816781.34175
+Edge 44 WPYJ,DrobinSFB,MJM1652,Dino: 26830809.301246
+The Best AIC is: 26595803.991668
+###################Your Delta AIC Scores#######################
+Tree 0: 36618.4114159793
+Tree 1: 36768.2893139794
+Indv BrLen 0: 7258.59614805505
+Indv BrLen 1: 7403.10877599195
+Edge 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB: 139.244419977069
+Edge 1 MJM2940,DrolusSFB,NepSFB,Neam: 0
+Edge 2 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 3577.67503999174
+Edge 3 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 45263.1512539722
+Edge 4 DrolusSFB,NepSFB,Neam: 61739.9186340049
+Edge 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 43893.2662259862
+Edge 6 RuprSFB,MJM3360,NepSFB,Neam: 51429.5830699652
+Edge 7 DrolusSFB,DrobinSFB,MJM1652,Dino: 63934.9969120063
+Edge 8 MJM2940,NepSFB,Neam: 60890.184803959
+Edge 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam: 44522.1483939514
+Edge 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 45153.3905919231
+Edge 11 WPYJ,Retr,RuprSFB,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: 146367.946073998
+Edge 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam: 51691.1352059469
+Edge 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 44129.7289539985
+Edge 14 WPYJ,Retr,NepSFB,Neam: 53809.7256779335
+Edge 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino: 43364.6114339307
+Edge 16 WPYJ,NepSFB,Neam: 233024.739013996
+Edge 17 WPYJ,MJM2940,DrolusSFB,NepSFB,Neam: 233024.739013996
+Edge 18 MJM2940,DrobinSFB,MJM1652,Dino: 69860.7908499874
+Edge 19 MJM3360,DrobinSFB,MJM1652,Dino: 117978.866969954
+Edge 20 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: 94026.1288179457
+Edge 21 DrobinSFB,MJM1652,Dino,Spol,Beta: 94026.1288179457
+Edge 22 RuprSFB,DrobinSFB,MJM1652,Dino: 133590.282805968
+Edge 23 Retr,MJM2940,DrolusSFB,NepSFB,Neam: 226817.894503973
+Edge 24 RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 56152.4696539901
+Edge 25 RuprSFB,MJM3360,DrobinSFB: 247473.120287992
+Edge 26 WPYJ,Retr,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 293059.539540026
+Edge 27 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 293059.539540026
+Edge 28 MJM2940,DrolusSFB,NepSFB,Neam,Spol,Beta: 65045.0860979818
+Edge 29 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino,Spol,Beta: 65045.0860979818
+Edge 30 DrolusSFB,DrobinSFB: 316467.826897986
+Edge 31 MJM2940,DrolusSFB,DrobinSFB: 316467.826897986
+Edge 32 MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 299148.305874005
+Edge 33 RuprSFB,MJM3360,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 268688.224472001
+Edge 34 MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 110672.050685979
+Edge 35 RuprSFB,MJM3360,MJM2940,NepSFB,Neam: 152720.183670007
+Edge 36 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 57387.439996019
+Edge 37 WPYJ,Retr,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: 226722.329074025
+Edge 38 WPYJ,Retr,MJM3360,MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 226722.329074025
+Edge 39 MJM3360,DrobinSFB: 397986.995133985
+Edge 40 RuprSFB,MJM1652,Dino: 397986.995133985
+Edge 41 RuprSFB,MJM1652,Dino,NepSFB,Neam: 397986.995133985
+Edge 42 RuprSFB,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 397986.995133985
+Edge 43 RuprSFB,NepSFB,Neam: 220977.350081991
+Edge 44 WPYJ,DrobinSFB,MJM1652,Dino: 235005.309577949

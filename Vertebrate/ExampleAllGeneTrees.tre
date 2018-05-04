@@ -1,0 +1,8 @@
+(protopterus,(Xenopus,((Ornithorhynchus,(Homo,Monodelphis)),((podarcis,(Anolis,python)),((Gallus,Taeniopygia),((alligator,caiman),(phrynops,(caretta,(chelonoidis_nigra,emys_orbicularis)))))))));
+(protopterus,(Xenopus,(((Homo,Monodelphis),Ornithorhynchus),((podarcis,(Anolis,python)),(((Gallus,Taeniopygia),(alligator,caiman)),(phrynops,(caretta,(chelonoidis_nigra,emys_orbicularis))))))));
+(protopterus,(Xenopus,(((caiman,alligator),(Taeniopygia,Gallus)),(((chelonoidis_nigra,(caretta,emys_orbicularis)),phrynops),((Homo,Monodelphis),(python,(podarcis,(Ornithorhynchus,Anolis))))))));
+(protopterus,(Xenopus,((((caiman,alligator),(((Homo,Monodelphis),Ornithorhynchus),(((phrynops,emys_orbicularis),caretta),chelonoidis_nigra))),(Taeniopygia,Gallus)),(python,(podarcis,Anolis)))));
+(protopterus,(Ornithorhynchus,((Homo,Monodelphis),(((Xenopus,(Taeniopygia,Gallus)),((caiman,alligator),((caretta,(emys_orbicularis,chelonoidis_nigra)),phrynops))),(python,(podarcis,Anolis))))));
+(protopterus,(Xenopus,(((Homo,Monodelphis),Ornithorhynchus),(((caretta,(emys_orbicularis,chelonoidis_nigra)),phrynops),(((caiman,alligator),(Taeniopygia,Gallus)),(python,(podarcis,Anolis)))))));
+(protopterus,(Xenopus,(Taeniopygia,(Gallus,(((caiman,alligator),((caretta,(chelonoidis_nigra,emys_orbicularis)),phrynops)),((Monodelphis,(Ornithorhynchus,Homo)),(python,(podarcis,Anolis))))))));
+(protopterus,(Xenopus,(Taeniopygia,(Gallus,(((caiman,alligator),((caretta,(chelonoidis_nigra,emys_orbicularis)),phrynops)),((Monodelphis,(Ornithorhynchus,Homo)),(python,(podarcis,Anolis))))))));

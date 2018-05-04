@@ -1,4 +1,4 @@
-# MGWE
+# Maximum Gene Wise Edge (MGWE)
 
 This Github contains the MGWE program, a two topology program and the data used in the analysis.
 

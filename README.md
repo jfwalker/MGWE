@@ -17,7 +17,9 @@ The ML program: [raxml](https://sco.h-its.org/exelixis/web/software/raxml/index.
 
 ### Running the program
 
-Once you've set up the config file (instructions below) you can run the program by using the command `perl MGWE_Calc.pl Config.config`
+Once you've set up the config file (instructions below) you can run the program by using the command 
+
+`EX: perl MGWE_Calc.pl Config.config`
 
 ### The Config file
 

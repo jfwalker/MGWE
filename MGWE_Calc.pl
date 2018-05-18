@@ -376,7 +376,7 @@ foreach $i (0..$#loc){
 	
 	#calculate the SSLL for each tree
 	print "(☞ﾟヮﾟ)☞ Processing Gene $i\n";
-	system("$raxml -f g -T $threads -s temp.fa -m GTRGAMMA -z TempTree.tre -n EX_SSLL | grep \"Tree\" | grep \":\"");
+	system("$raxml -f g -T $threads -s temp.fa -m GTRGAMMA -z TempTree.tre -n EX_SSLL | grep \"Tree \" | grep \":\"");
 	
 	#read in SSLL and make a new file of them
 	$t_count = 0;
@@ -437,9 +437,9 @@ if($secret eq "True"){
 			
 		chomp $line;
 		if ($line =~ /Tree/){
-			if($line =~ /:/){
+			if($line =~ /Tree.*?:/){
 				
-				$likelihood = ($line =~ m/.*?: (.*)/)[0];
+				$likelihood = ($line =~ m/Tree.*?: (.*)/)[0];
 				push @MatrixLikes, $likelihood;
 			}
 		}
@@ -462,7 +462,7 @@ if($secret eq "True"){
 			}
 			$count++;
 		}
-		system("$raxml -f g -T $threads -s $SuperMatrix -q $PartFile -m GTRGAMMA -z Questionable.tre -n Topologies_SSLL | grep \"Tree\" | grep \":\"");
+		system("$raxml -f g -T $threads -s $SuperMatrix -q $PartFile -m GTRGAMMA -z Questionable.tre -n Topologies_SSLL | grep \"Tree \" | grep \":\"");
 		system("mv RAxML_perSiteLLs.Topologies_SSLL MatrixNoBrSSLLs.SSLL");
 		system("mv RAxML_info.Topologies_SSLL MatrixNoBrInfo.SSLL");
 		print "Done! ( ﾟヮﾟ)\n";
@@ -470,10 +470,10 @@ if($secret eq "True"){
 		while($line = <File>){
 			
 			chomp $line;
-			if ($line =~ /Tree/){
+			if ($line =~ /Tree.*?:/){
 				if($line =~ /:/){
 				
-					$likelihood = ($line =~ m/.*?: (.*)/)[0];
+					$likelihood = ($line =~ m/Tree.*?: (.*)/)[0];
 					push @MatrixLikes, $likelihood;
 				}
 			}
@@ -603,6 +603,39 @@ foreach $i (0..$#best_likes){
 print StatsOut "The Best AIC is: $sorted[0]\n";
 $best_aic = 0;
 $best_aic = $sorted[0];
+#Correcting the AICc because why not
+print StatsOut "#######################Your AICc Scores########################\n";
+@temp_sort = (); $MatrixAICc = 0; @sorted = ();
+($start,$length_of_supermatrix) = split "-", $loc[$#loc], 2;
+$correction_for_AICc_Plain = (((2*($parameters_of_matrix**2)) + (2*$parameters_of_matrix)) / ($length_of_supermatrix - $parameters_of_matrix - 1));
+$correction_for_AICc_cool = (((2*($parameters_of_MGWE**2)) + (2*$parameters_of_MGWE)) / ($length_of_supermatrix - $parameters_of_MGWE - 1));
+if($Topos != 0){
+	
+	foreach $i (0..$#MatrixLikes){
+		
+		$MatrixAICc = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix) + $correction_for_AICc_Plain;
+		print StatsOut "Tree $i: $MatrixAICc\n";
+		push @temp_sort, $MatrixAICc;
+	}
+	foreach $i (0..$#gene_comp){
+		$MatrixAICc = (-2*$gene_comp[$i]) + (2*$parameters_of_MGWE) + $correction_for_AICc_cool;
+		print StatsOut "Indv BrLen $i: $MatrixAICc\n";
+		push @temp_sort, $MatrixAICc;
+	}
+
+}
+foreach $i (0..$#best_likes){
+
+	$MatrixAICc = (-2*$like_sum[$i]) + (2*$parameters_of_MGWE) + $correction_for_AICc_cool;
+	print StatsOut "Edge $i $Conflict[$i]: $MatrixAICc\n";
+	push @temp_sort, $MatrixAICc;
+	
+}
+@sorted = sort {$a <=> $b} @temp_sort;
+print StatsOut "The Best AICc is: $sorted[0]\n";
+$best_AICc = 0;
+$best_AICc = $sorted[0];
+
 print StatsOut "###################Your Delta AIC Scores#######################\n";
 $MatrixAIC = 0; $DeltaAIC = 0; $TotalDelta = 0;
 if($Topos != 0){
@@ -629,6 +662,34 @@ foreach $i (0..$#best_likes){
 	$DeltaAIC = $MatrixAIC - $best_aic;
 	$TotalDelta += exp(-0.5 * $DeltaAIC);
 	print StatsOut "Edge $i $Conflict[$i]: $DeltaAIC\n";
+	
+}
+#Correcting the AICc because why not
+print StatsOut "##################Your Delta AICc Scores########################\n";
+@temp_sort = (); $MatrixAICc = 0; @sorted = (); $DeltaAICc = 0;
+($start,$length_of_supermatrix) = split "-", $loc[$#loc], 2;
+$correction_for_AICc_Plain = (((2*($parameters_of_matrix**2)) + (2*$parameters_of_matrix)) / ($length_of_supermatrix - $parameters_of_matrix - 1));
+$correction_for_AICc_cool = (((2*($parameters_of_MGWE**2)) + (2*$parameters_of_MGWE)) / ($length_of_supermatrix - $parameters_of_MGWE - 1));
+if($Topos != 0){
+	
+	foreach $i (0..$#MatrixLikes){
+		
+		$MatrixAICc = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix) + $correction_for_AICc_Plain;
+		$DeltaAICc = $MatrixAICc - $best_AICc;
+		print StatsOut "Tree $i: $DeltaAICc\n";
+	}
+	foreach $i (0..$#gene_comp){
+		$MatrixAICc = (-2*$gene_comp[$i]) + (2*$parameters_of_MGWE) + $correction_for_AICc_cool;
+		$DeltaAICc = $MatrixAICc - $best_AICc;
+		print StatsOut "Indv BrLen $i: $DeltaAICc\n";
+	}
+
+}
+foreach $i (0..$#best_likes){
+
+	$MatrixAICc = (-2*$like_sum[$i]) + (2*$parameters_of_MGWE) + $correction_for_AICc_cool;
+	$DeltaAICc = $MatrixAICc - $best_AICc;
+	print StatsOut "Edge $i $Conflict[$i]: $DeltaAICc\n";
 	
 }
 

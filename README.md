@@ -6,7 +6,8 @@ This Github contains the MGWE program, a two topology program and the data used 
 
 Details regarding the MGWE procedure may be found in the paper:
 
-[Analyzing contentious relationships and outlier genes in phylogenomics](https://www.biorxiv.org/content/early/2018/02/19/115774)
+SysBio: [Analyzing contentious relationships and outlier genes in phylogenomics](https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syy043/5034973)
+BioRxiv: [Analyzing contentious relationships and outlier genes in phylogenomics](https://www.biorxiv.org/content/early/2018/02/19/115774)
 
 
 ### Requirements
@@ -25,8 +26,7 @@ Once you've set up the config file (instructions below) you can run the program 
 
 Running the program should be relatively trivial and can be tested quickly on the vertebrate dataset from the paper. 
 The configuration file first needs to be set up with the following options. Each option should have a space after the
-colon. An example config file here is called Config.config and it's the one I used to analyze the vertebrate "or tetrapod depending on
-how technical you want to be" dataset
+colon. An example config file here is called Config.config and it's the one I used to analyze the vertebrate dataset
 
 location of the phyx programs (pxbp and pxrmt), the location of raxml, and a name for the outfile.
 

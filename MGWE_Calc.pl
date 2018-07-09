@@ -240,7 +240,9 @@ while($line = <Configure>){
 	if($line =~ /^pxrmt:/){
 		$pxrmt = ($line =~ /.*?: (.*)/)[0];	
 	}elsif($line =~ /^pxbp:/){
-		$pxbp = ($line =~ /.*?: (.*)/)[0];	
+		$pxbp = ($line =~ /.*?: (.*)/)[0];
+	}elsif($line =~ /^pxrr:/){
+		$pxrr = ($line =~ /.*?: (.*)/)[0];	
 	}elsif($line =~ /^raxml:/){
 		$raxml = ($line =~ /.*?: (.*)/)[0];
 	}elsif($line =~ /^Species:/){
@@ -288,7 +290,7 @@ if($secret ne "True"){
 }
 print StatsOut "You're Edge Info is in bp.log\nYou're Unique Trees are in Unique.tre\n";
 
-system("pxrr -u -t $TreeFile -o trees.unroot");
+system("$pxrr -u -t $TreeFile -o trees.unroot");
 system("$pxbp -t trees.unroot -u | grep \"\(\" > Unique.tre");
 system("$pxbp -t Unique.tre -v > bp.log");
 

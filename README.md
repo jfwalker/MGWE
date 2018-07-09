@@ -7,6 +7,7 @@ This Github contains the MGWE program, a two topology program and the data used 
 Details regarding the MGWE procedure may be found in the paper:
 
 SysBio: [Analyzing contentious relationships and outlier genes in phylogenomics](https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syy043/5034973)
+
 BioRxiv: [Analyzing contentious relationships and outlier genes in phylogenomics](https://www.biorxiv.org/content/early/2018/02/19/115774)
 
 

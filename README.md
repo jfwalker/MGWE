@@ -2,6 +2,14 @@
 
 This Github contains the MGWE program, a two topology program and the data used in the analysis.
 
+`August 4th 2018: Further edge work has been moved to a new github https://github.com/jfwalker/PHAIL 
+This is all left up since it was used in the paper but the constraint method mentioned in the paper
+is no implemented in the program EdgeTest.py from PHAIL. Any questions please send an email to
+jfwalker@umich.edu`
+
+
+
+
 ### Procedure
 
 Details regarding the MGWE procedure may be found in the paper:

@@ -54,7 +54,7 @@ open(ForR, ">ForR");
 
 @loc = ();
 @loc = GetParts($PartFile);
-system("$raxml -f g -T $threads -s $SuperMatrix -q $PartFile -m GTRGAMMA -z $Trees -n Topologies_SSLL");
+system("$raxml -f G -T $threads -s $SuperMatrix -q $PartFile -m GTRGAMMA -z $Trees -n Topologies_SSLL");
 $count = 0; @array = (); @array2 = (); @sum_array = ();
 @array1 = (); $site1sum = 0; $site2sum = 0;
 @site1_array = (); @site2_array = ();

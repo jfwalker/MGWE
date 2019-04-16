@@ -378,7 +378,7 @@ foreach $i (0..$#loc){
 	
 	#calculate the SSLL for each tree
 	print "(☞ﾟヮﾟ)☞ Processing Gene $i\n";
-	system("$raxml -f g -T $threads -s temp.fa -m GTRGAMMA -z TempTree.tre -n EX_SSLL | grep \"Tree \" | grep \":\"");
+	system("$raxml -f G -T $threads -s temp.fa -m GTRGAMMA -z TempTree.tre -n EX_SSLL | grep \"Tree \" | grep \":\"");
 	
 	#read in SSLL and make a new file of them
 	$t_count = 0;
@@ -464,7 +464,7 @@ if($secret eq "True"){
 			}
 			$count++;
 		}
-		system("$raxml -f g -T $threads -s $SuperMatrix -q $PartFile -m GTRGAMMA -z Questionable.tre -n Topologies_SSLL | grep \"Tree \" | grep \":\"");
+		system("$raxml -f G -T $threads -s $SuperMatrix -q $PartFile -m GTRGAMMA -z Questionable.tre -n Topologies_SSLL | grep \"Tree \" | grep \":\"");
 		system("mv RAxML_perSiteLLs.Topologies_SSLL MatrixNoBrSSLLs.SSLL");
 		system("mv RAxML_info.Topologies_SSLL MatrixNoBrInfo.SSLL");
 		print "Done! ( ﾟヮﾟ)\n";

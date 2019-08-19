@@ -4,12 +4,12 @@ This Github contains the MGWE program, a two topology program and the data used 
 
 `Update!!!!!
 August 4th 2018 
-Further edge work has been moved to a new github [https://github.com/jfwalker/PHAIL]
+Further edge work has been moved to a new github [https://github.com/jfwalker/EdgeTest]
 This is all left up since it was used in the paper but the constraint method mentioned in the paper
-is now implemented in the program EdgeTest.py from PHAIL. Constraint method explores more treespace and will give a better analysis of your data. Any questions please send an email to
+is now implemented in the program EdgeTest.py from EdgeTest (formely called PHAIL). Constraint method explores more treespace and will give a better analysis of your data. Any questions please send an email to
 jfwalker@umich.edu`
 
-Link to PHAIL: [https://github.com/jfwalker/PHAIL](https://github.com/jfwalker/PHAIL)
+Link to PHAIL: [https://github.com/jfwalker/EdgeTest](https://github.com/jfwalker/PHAIL)
 
 
 ### Procedure
